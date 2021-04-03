@@ -1,5 +1,11 @@
 # @urql/core
 
+## 2.0.1
+
+### Patch Changes
+
+- ⚠️ Fix inconsistency in generating keys for `DocumentNode`s, especially when using GraphQL Code Generator, which could cause SSR serialization to fail, by [@zenflow](https://github.com/zenflow) (See [#1509](https://github.com/FormidableLabs/urql/pull/1509))
+
 ## 2.0.0
 
 ### Major Changes
